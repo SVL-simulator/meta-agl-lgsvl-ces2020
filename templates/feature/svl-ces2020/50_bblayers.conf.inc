@@ -1,3 +1,3 @@
 BBLAYERS =+ "\
-  ${METADIR}/meta-agl-svl-ces2020 \
+  ${METADIR}/meta-agl-lgsvl-ces2020 \
 "
