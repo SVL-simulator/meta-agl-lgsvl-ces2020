@@ -7,7 +7,7 @@ RDEPENDS_${PN} += "wam"
 
 inherit cmake aglwgt
 
-SRC_URI = "gitsm://auto-gitlab.lgsvl.net/jose.dapena/html5-remote.git;branch=master;protocol=https"
+SRC_URI = "gitsm://github.com/lgsvl/agl-html5-remote.git;branch=master;protocol=https"
 SRCREV = "e891128464d48c505f56778c4863c52a7c3ab31a"
 
 PV = "1.0+git${SRCPV}"
