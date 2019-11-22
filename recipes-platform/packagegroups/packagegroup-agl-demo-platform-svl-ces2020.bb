@@ -22,5 +22,5 @@ RDEPENDS_${PN} += " \
 # add packages for WAM
 RDEPENDS_${PN} += " \
     enactbrowser-service \
-    agateapps \
+    agate-apps \
 "
