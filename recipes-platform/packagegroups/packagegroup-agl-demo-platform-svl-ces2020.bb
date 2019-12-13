@@ -23,5 +23,7 @@ RDEPENDS_${PN} += " \
 RDEPENDS_${PN} += " \
     agate-apps \
     enactbrowser-service \
+    html5-homescreen \
     html5-hvac \
+    html5-launcher \
 "
