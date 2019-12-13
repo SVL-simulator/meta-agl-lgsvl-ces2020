@@ -1,0 +1,19 @@
+diff --git a/src/config.xml b/src/config.xml
+index 16eb5f6..635f699 100644
+--- a/src/config.xml
++++ b/src/config.xml
+@@ -7,7 +7,6 @@
+   <author>Igalia, S.L.</author>
+   <license>APL 2.0</license>
+   <feature name="urn:AGL:widget:required-permission">
+-    <param name="urn:AGL:permission::system:run-by-default" value="required" />
+     <param name="urn:AGL:permission::public:no-htdocs" value="required" />
+     <param name="urn:AGL:permission::public:display" value="required" />
+     <param name="urn:AGL:permission::public:audio" value="required" />
+@@ -20,4 +19,4 @@
+     <param name="homescreen" value="ws" />
+     <param name="afm-main" value="ws" />
+   </feature>
+-</widget>
+\ No newline at end of file
++</widget>
