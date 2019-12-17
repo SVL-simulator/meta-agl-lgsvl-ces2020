@@ -11,6 +11,7 @@ function getBrowserDefaults() {
         bookmarks: [
             {url:'https://google.com/', icon:null, title: 'Google'},
             {url:'https://www.automotivelinux.org/', icon:null, title: 'AGL'},
+            {url:'https://agl-web-applications.github.io/examples/', icon: null, 'Examples'},
             {url:'http://lgsvl.com/', icon:null, title: 'LGSVL'},
             {url:'https://www.igalia.com/', icon:null, title: 'Igalia'}
         ],
