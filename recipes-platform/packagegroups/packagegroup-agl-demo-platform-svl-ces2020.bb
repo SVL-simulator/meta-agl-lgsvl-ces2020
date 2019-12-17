@@ -30,4 +30,5 @@ RDEPENDS_${PN} += " \
     html5-hvac \
     html5-launcher \
     html5-settings \
+    webapp-samples \
 "
