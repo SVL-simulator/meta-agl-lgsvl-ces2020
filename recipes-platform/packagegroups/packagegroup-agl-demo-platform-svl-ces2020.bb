@@ -23,7 +23,11 @@ RDEPENDS_${PN} += " \
 RDEPENDS_${PN} += " \
     agate-console \
     enactbrowser-service \
+    html5-dashboard \
     html5-homescreen \
+    html5-mediaplayer \
+    html5-mixer \
     html5-hvac \
     html5-launcher \
+    html5-settings \
 "
