@@ -21,7 +21,7 @@ RDEPENDS_${PN} += " \
 
 # add packages for WAM
 RDEPENDS_${PN} += " \
-    agate-apps \
+    agate-console \
     enactbrowser-service \
     html5-homescreen \
     html5-hvac \
