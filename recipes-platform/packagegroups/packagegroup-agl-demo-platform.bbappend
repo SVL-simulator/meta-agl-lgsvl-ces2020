@@ -7,5 +7,6 @@ AGL_APPS_remove = "\
   poiapp \
   radio \
   settings \
+  taskmanager \
   virtual/navigation \
 "
