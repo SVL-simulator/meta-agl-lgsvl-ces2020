@@ -12,10 +12,10 @@ require html5-apps.inc
 PR = "r0"
 
 SRC_URI = "git://gerrit.automotivelinux.org/gerrit/apps/html5-hvac;protocol=https;branch=master"
-SRCREV = "a8a5b85c8148743b09607b1abb33081e211f7aa5"
+SRCREV = "e599cdee59e14e5c7d3d4a7d339bc693f69e9d88"
 
 do_aglwgt_package() {
     cd ${B}
     ${NPM_BIN} run build
-    cp ${B}/dist/hvac.wgt ${B}
+    cp ${B}/package/hvac.wgt ${B}
 }
