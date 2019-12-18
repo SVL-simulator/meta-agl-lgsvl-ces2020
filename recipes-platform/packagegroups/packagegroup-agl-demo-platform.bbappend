@@ -2,7 +2,7 @@ AGL_APPS_remove = "\
   dashboard \
   hvac \
   mediaplayer \
-  mixer \
+  virtual/mixer \
   phone \
   poiapp \
   radio \
