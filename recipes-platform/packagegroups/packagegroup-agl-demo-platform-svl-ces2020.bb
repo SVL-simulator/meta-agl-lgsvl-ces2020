@@ -30,5 +30,7 @@ RDEPENDS_${PN} += " \
     html5-hvac \
     html5-launcher \
     html5-settings \
-    webapp-samples \
+    webapp-samples-aquarium \
+    webapp-samples-blob \
+    webapp-samples-youtube \
 "

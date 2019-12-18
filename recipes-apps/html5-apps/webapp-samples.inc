@@ -13,16 +13,15 @@ inherit aglwgt
 SRC_URI += "git://github.com/AGL-web-applications/webapp-samples.git;branch=master;protocol=https"
 
 do_compile() {
-  cd ${S}
+  cd ${S}/${SAMPLE_PATH}
   make package
 }
 
 do_aglwgt_package() {
-  cp ${S}/package/*.wgt ${B}/
+  cp ${S}/${SAMPLE_PATH}/package/*.wgt ${B}/
 }
 
 RDEPENDS_${PN} += " \
-  af-main \
   agl-service-windowmanager \
   agl-service-homescreen \
   virtual/webruntime \
