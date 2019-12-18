@@ -1,3 +1,7 @@
+SRC_URI += " \
+  file://html5-launcher-config-demo.json \
+"
+
 ICONS_PATH = "${S}/src/images/icons"
 
 do_compile_prepend() {
@@ -11,4 +15,5 @@ do_compile_prepend() {
   cp ${ICONS_PATH}/webbrowser_active.svg ${ICONS_PATH}/webgl\ aquarium_active.svg
   cp ${ICONS_PATH}/webbrowser_inactive.svg ${ICONS_PATH}/webgl\ blob_inactive.svg
   cp ${ICONS_PATH}/webbrowser_active.svg ${ICONS_PATH}/webgl\ blob_active.svg
+  cp ${WORKDIR}/html5-launcher-config-demo.json ${S}/src/config.json
 }
