@@ -2,11 +2,11 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
 PR = "r0"
-SRCREV = "be6f067d41594090f4822c167e7f7f907e7a8be0"
+SRCREV = "dc50a3ed27b23e0b6ce4690b162906ba38205aeb"
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 S = "${WORKDIR}/git"
 
-SRC_URI += "git://github.com/enactjs/agate-apps.git;branch=IAA2019;protocol=https"
+SRC_URI += "git://github.com/enactjs/agate-apps.git;branch=demo-2020CES;protocol=https"
 
 DEPENDS += " nodejs nodejs-native zip-native"
 

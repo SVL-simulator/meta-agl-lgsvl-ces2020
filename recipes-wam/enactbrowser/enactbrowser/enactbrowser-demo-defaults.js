@@ -13,8 +13,7 @@ function getBrowserDefaults() {
             {url:'http://192.168.1.101:8080', icon:null, title: 'Dreamview'},
             {url:'http://lgsvlsimulator.com/', icon:null, title: 'LGSVL'},
             {url:'https://webglsamples.org/', icon: null, title: 'webGL samples'},
-            {url:'https://www.youtube.com/channel/UChrPZIYAnKEKiQjmPmBwPKA', icon:null, title: 'YouTube'},
-            {url:'https://www.automotivelinux.org/', icon:null, title: 'AGL'}
+            {url:'https://www.youtube.com/channel/UChrPZIYAnKEKiQjmPmBwPKA', icon:null, title: 'YouTube'}
         ],
         config: {
             useBuiltInErrorPages: false,
