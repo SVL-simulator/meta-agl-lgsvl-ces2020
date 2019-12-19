@@ -9,11 +9,12 @@
 function getBrowserDefaults() {
     return {
         bookmarks: [
-            {url:'https://google.com/', icon:null, title: 'Google'},
-            {url:'https://www.automotivelinux.org/', icon:null, title: 'AGL'},
-            {url:'https://agl-web-applications.github.io/examples/', icon: null, title: 'Examples'},
-            {url:'http://lgsvl.com/', icon:null, title: 'LGSVL'},
-            {url:'https://www.igalia.com/', icon:null, title: 'Igalia'}
+            {url:'http://192.168.1.100:8080', icon:null, title: 'Simulator'},
+            {url:'http://192.168.1.101:8080', icon:null, title: 'Dreamview'},
+            {url:'http://lgsvlsimulator.com/', icon:null, title: 'LGSVL'},
+            {url:'https://webglsamples.org/', icon: null, title: 'webGL samples'},
+            {url:'https://www.youtube.com/channel/UChrPZIYAnKEKiQjmPmBwPKA', icon:null, title: 'YouTube'},
+            {url:'https://www.automotivelinux.org/', icon:null, title: 'AGL'}
         ],
         config: {
             useBuiltInErrorPages: false,
