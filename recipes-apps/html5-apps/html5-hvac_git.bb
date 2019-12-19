@@ -11,8 +11,8 @@ require html5-apps.inc
 
 PR = "r0"
 
-SRC_URI = "git://gerrit.automotivelinux.org/gerrit/apps/html5-hvac;protocol=https;branch=master"
-SRCREV = "e599cdee59e14e5c7d3d4a7d339bc693f69e9d88"
+SRC_URI = "git://github.com/AGL-web-applications/hvac.git;protocol=https;branch=ces2020"
+SRCREV = "529112422038a9368b1b08d67acc20d49d4a8d17"
 
 do_aglwgt_package() {
     cd ${B}

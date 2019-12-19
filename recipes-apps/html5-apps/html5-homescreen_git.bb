@@ -11,7 +11,7 @@ RDEPENDS_${PN} += "agl-service-homescreen agl-service-windowmanager agl-service-
 
 PR = "r0"
 
-SRC_URI = "git://github.com/AGL-web-applications/homescreen.git;protocol=https;branch=master"
+SRC_URI = "git://github.com/AGL-web-applications/homescreen.git;protocol=https;branch=ces2020"
 SRCREV = "a642e2c595e89ad9e2a1d4f3f1b685420462f9b5"
 
 do_aglwgt_package() {
