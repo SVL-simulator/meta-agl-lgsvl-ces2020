@@ -32,5 +32,4 @@ RDEPENDS_${PN} += " \
     html5-settings \
     webapp-samples-aquarium \
     webapp-samples-blob \
-    webapp-samples-youtube \
 "
