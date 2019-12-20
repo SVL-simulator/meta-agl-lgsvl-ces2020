@@ -50,6 +50,33 @@ xzcat tmp/deploy/images/intel-corei7-64/agl-demo-platform-intel-corei7-64.wic.xz
 
 Note NUC does not support booting from SD card, so better use a USB storage.
 
+Agate Console deployment keys
+-----------------------------
+
+In case you want to add predefined config.js for Agate console app:
+
+1. Add agl-localdev to the list of templates in aglsetup.sh:
+
+```bash
+source meta-agl/scripts/aglsetup.sh -f -m intel-corei7-64 -b build agl-devel svl-ces2020 agl-localdev
+```
+
+2. Copy the config.js populated file to /build-path-foo/agl-halibut/meta-agl-lgsvl-ces2020/agate-console-config/config.js
+(with whatever path you are using for building).
+
+3. On conf/local.dev.inc add these lines:
+
+```
+FILESEXTRAPATHS_prepend_pn-agate-console := "/build-path-foo/agl-halibut/meta-agl-lgsvl-ces2020/agate-console-config:"
+SRC_URI_append_pn-agate-console = " file://config.js"
+do_compile_append_pn-agate-console() {
+  cp ${WORKDIR}/config.js ${S}/console/dist/assets/config.js
+}
+```
+
+4. Or you can just copy the file to the running device with scp (once agate-console has been installed).
+The path is '/var/local/lib/afm/applications/webapps-agate-console/1.0/assets/config.js'
+
 Supported Machines
 ------------------
 
