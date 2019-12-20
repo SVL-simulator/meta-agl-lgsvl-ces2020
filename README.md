@@ -26,6 +26,14 @@ I.e. for NUC:
 source meta-agl/scripts/aglsetup.sh -f -m intel-corei7-64 -b build agl-devel svl-ces2020
 ```
 
+3.1 Change branch of meta-agl-devel to the one for the demo:
+
+```
+cd meta-agl-devel
+git remote add igalia-github git@github.com:Igalia/meta-agl-devel.git
+git fetch igalia-github
+git checkout halibut.ces2020
+
 4. Build the target agl-demo-platform
 
 ```bash
