@@ -10,7 +10,7 @@ function getBrowserDefaults() {
     return {
         bookmarks: [
             {url:'http://192.168.1.100:8080', icon:null, title: 'Simulator'},
-            {url:'http://192.168.1.101:8080', icon:null, title: 'Dreamview'},
+            {url:'http://192.168.1.101:8888', icon:null, title: 'Dreamview'},
             {url:'http://lgsvlsimulator.com/', icon:null, title: 'LGSVL'},
             {url:'https://webglsamples.org/', icon: null, title: 'webGL samples'},
             {url:'https://www.youtube.com/channel/UChrPZIYAnKEKiQjmPmBwPKA', icon:null, title: 'YouTube'}
