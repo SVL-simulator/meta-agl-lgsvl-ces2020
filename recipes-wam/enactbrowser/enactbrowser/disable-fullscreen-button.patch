@@ -1,0 +1,14 @@
+diff --git a/samples/enact-based/src/views/Main/Main.js b/samples/enact-based/src/views/Main/Main.js
+index 124e6e5..465cd33 100644
+--- a/samples/enact-based/src/views/Main/Main.js
++++ b/samples/enact-based/src/views/Main/Main.js
+@@ -140,7 +140,8 @@ class Main extends Component {
+ 							onClick={this.onFullScreen}
+ 							tooltipText={$L('Full screen')}
+ 							type="fullscreenButton"
+-						/>
++                                                        disabled
++					         />
+ 					</div> }
+ 					<TabBar fullScreen={fullScreen} browser={browser} />
+ 				</div>

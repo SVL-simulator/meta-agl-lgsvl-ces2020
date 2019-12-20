@@ -1,6 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/enactbrowser:"
 
 SRC_URI += " \
+  file://disable-fullscreen-button.patch \
   file://enactbrowser-demo-defaults.js \
 "
 
